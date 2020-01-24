@@ -10,6 +10,16 @@
 		30093E0423DB016500AEC638 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30093E0323DB016500AEC638 /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		30093E2123DB1A8F00AEC638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30093E1D23DB1A8E00AEC638 /* Oving3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 30093E1323DB1A8E00AEC638;
+			remoteInfo = Oving3;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		30093DFE23DB016500AEC638 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +35,7 @@
 /* Begin PBXFileReference section */
 		30093E0023DB016500AEC638 /* Oving2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Oving2; sourceTree = BUILT_PRODUCTS_DIR; };
 		30093E0323DB016500AEC638 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		30093E1D23DB1A8E00AEC638 /* Oving3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Oving3.xcodeproj; path = ../Oving3/Oving3.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +52,7 @@
 		30093DF723DB016500AEC638 = {
 			isa = PBXGroup;
 			children = (
+				30093E1D23DB1A8E00AEC638 /* Oving3.xcodeproj */,
 				30093E0223DB016500AEC638 /* Oving2 */,
 				30093E0123DB016500AEC638 /* Products */,
 			);
@@ -60,6 +72,14 @@
 				30093E0323DB016500AEC638 /* main.cpp */,
 			);
 			path = Oving2;
+			sourceTree = "<group>";
+		};
+		30093E1E23DB1A8E00AEC638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30093E2223DB1A8F00AEC638 /* Oving3 */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,12 +127,28 @@
 			mainGroup = 30093DF723DB016500AEC638;
 			productRefGroup = 30093E0123DB016500AEC638 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 30093E1E23DB1A8E00AEC638 /* Products */;
+					ProjectRef = 30093E1D23DB1A8E00AEC638 /* Oving3.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				30093DFF23DB016500AEC638 /* Oving2 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		30093E2223DB1A8F00AEC638 /* Oving3 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Oving3;
+			remoteRef = 30093E2123DB1A8F00AEC638 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30093DFC23DB016500AEC638 /* Sources */ = {
