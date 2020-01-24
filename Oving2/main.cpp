@@ -59,6 +59,31 @@ void printIntNotNull(){
     cout << "Sum: " << sum << "\n";
 }
 
+
+void menu(){
+    int i;
+    cout << "Velg funksjon:\n";
+    cout << "0) Avslutt\n";
+    cout <<"1) Summer to tall\n";
+    cout << "2) Summer flere tall\n";
+    cout << "3) Konverter NOK til EURO. Angi valg (0-3):\n";
+    cin >> i;
+    
+    switch (i) {
+        case 0:
+            break;
+        case 1:
+            inputIntegersAndPrintSum();
+            break;
+        case 2:
+            printIntNotNull();
+            break;
+        case 3:
+            break;
+    }
+    
+    
+}
 int main(int argc, const char * argv[]) {
 //    inputAndPrintInteger();
 //    int number = inputInteger();
@@ -69,5 +94,6 @@ int main(int argc, const char * argv[]) {
 //    }
 //    printHumanReadableTime(3600);
 //    cout << "Sum: " << loopSum(100) << "\n";
-    printIntNotNull();
+//    printIntNotNull();
+    menu();
 }
